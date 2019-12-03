@@ -1,6 +1,9 @@
-python:
-  version: 3.7
-  install:
-    - requirements: docs/requirements-docs.txt
-    - method: pip
-      path: .
+# python:
+#   version: 3.7
+#   install:
+#     - requirements: docs/requirements-docs.txt
+#     - method: pip
+#       path: .
+
+conda:
+  environment: docs/environment.yml
