@@ -47,6 +47,17 @@ extensions = [
     "recommonmark",
 ]
 
+autodoc_mock_imports = [
+    "numpy",
+    "scipy",
+    "theano",
+    "arviz",
+    "pandas",
+    "patsy",
+    "tqdm",
+    "h5py",
+]
+
 # Don't auto-generate summary for class members.
 numpydoc_show_class_members = False
 
