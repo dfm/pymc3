@@ -12,4 +12,4 @@ dependencies:
   - pip
   - pip:
     - arviz>=0.4.1
-    - -e .
+    - -e ..
