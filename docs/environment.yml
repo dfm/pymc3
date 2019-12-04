@@ -11,5 +11,6 @@ dependencies:
   - h5py>=2.7.0
   - pip
   - pip:
+    - nbsphinx
     - arviz>=0.4.1
     - -e ..
