@@ -9,8 +9,11 @@ dependencies:
   - patsy>=0.4.0
   - tqdm>=4.8.4
   - h5py>=2.7.0
+  - ipython
   - pip
   - pip:
-    - nbsphinx
     - arviz>=0.4.1
+    - nbsphinx
+    - numpydoc
+    - recommonmark
     - -e ..
